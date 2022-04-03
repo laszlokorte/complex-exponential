@@ -1,6 +1,6 @@
 ![Screenshot of the app](preview.png)
 
-[Live Demo](https://static.laszlokorte.de/complex-exponential/)
+[Live Demo](https://static.laszlokorte.de/complex-exponential/) | [Short demo video](https://www.youtube.com/watch?v=Gk0ixGSOZhk)
 
 # Complex exponential
 
