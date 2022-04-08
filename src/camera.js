@@ -97,6 +97,8 @@ export default function makeDragControl(regl, el) {
   }
 
   function zoom(z) {
+    if(!z) return; 
+
     state.zoom *= Math.exp(z)
     state.zoom = Math.max(1, Math.min(10, state.zoom))
   }
@@ -152,7 +154,7 @@ export default function makeDragControl(regl, el) {
       return
     }
     evt.preventDefault()
-    zoom(evt.wheelDelta/400)
+    zoom(evt.wheelDelta/400 || evt.deltaY/100)
   })
 
   var touchState = {
